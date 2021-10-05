@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #f3f2ef !important;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.form {
+  width: 50%;
+  margin: 5px auto;
+}
+.mb-3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.login-button {
+  margin: 30px;
+  background-color: #212529;
+  border-radius: 5px;
+}
+.login-button button {
+  color: white;
+}
+.center-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.react-bootstrap-table table {
+  table-layout: auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #263238;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.card {
+  max-width: 50%;
+  min-height: 250px;
+  background: #02b875;
+  padding: 30px;
+  box-sizing: border-box;
+  color: black;
+  margin: 20px auto;
+  box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.75);
+  height: auto;
+  min-height: 30px;
+}
+
+.card-title {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+.card-content {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.card-btn {
+  all: unset;
+  display: block;
+  margin-left: auto;
+  border: 2px solid black;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 10px;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+
+/* .heading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  margin-bottom: 20px;
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hide-small {
+  color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  .hide-small {
+    display: none;
+  }
+}
